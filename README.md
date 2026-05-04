@@ -169,6 +169,7 @@ corretamente' ou 'para melhorar a experiência'.
 
 ![Dashboard LangSmith](image-4.png)
 
+<img width="1172" height="1008" alt="image" src="https://github.com/user-attachments/assets/33eb2f13-1ca0-41d4-b8ea-d9b011c28ddd" />
 
 ---
 
