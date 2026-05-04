@@ -25,11 +25,11 @@ def main():
 
     print(f"Dataset : {dataset_name}")
     print(f"Prompt  : {prompt_name}")
-    print(f"Exemplos: 10\n")
+    print(f"Exemplos: 15\n")
 
     client = Client()
 
-    examples = list(client.list_examples(dataset_name=dataset_name))[:10]
+    examples = list(client.list_examples(dataset_name=dataset_name))[:15]
     if not examples:
         print("❌ Nenhum exemplo encontrado no dataset. Execute evaluate.py primeiro.")
         return 1
@@ -70,9 +70,9 @@ def main():
         question = extract_bug_report(example.inputs or {})
 
         f1 = evaluate_f1_score(question, answer, reference)["score"]
-        time.sleep(4)
+        time.sleep(12)
         clarity = evaluate_clarity(question, answer, reference)["score"]
-        time.sleep(4)
+        time.sleep(12)
         precision = evaluate_precision(question, answer, reference)["score"]
 
         helpfulness = round((clarity + precision) / 2, 4)
