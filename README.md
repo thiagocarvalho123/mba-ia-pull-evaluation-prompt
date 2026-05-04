@@ -167,7 +167,7 @@ corretamente' ou 'para melhorar a experiência'.
 
 ![Métricas detalhadas](image-1.png)
 
-![Dashboard LangSmith](image-3.png)
+![Dashboard LangSmith](image-4.png)
 
 
 ---
